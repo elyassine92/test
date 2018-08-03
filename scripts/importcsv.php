@@ -1,6 +1,9 @@
 <?php
 
-    //Start Function Import File CSV
+
+    /*******************************************************
+    ** Start Function Import File CSV
+    *******************************************************/
 
     function importcsv(){
         $arrFileName = explode('.','/Applications/XAMPP/xamppfiles/htdocs/wepick/scripts/csv_marque.csv');
@@ -30,11 +33,13 @@
         }
     }
 
-    //importcsv();
-    add_action ( 'after_setup_theme', 'importcsv' );
+    importcsv();
+    //add_action ( 'after_setup_theme', 'importcsv' );
 
     
-    //Start Function Import File CSV
+    /*******************************************************
+    ** End Function Import File CSV
+    *******************************************************/
 
 
 

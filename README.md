@@ -1,3 +1,3 @@
-# wepick
-# wepick_test
+# Projet Wordpress Test
+# 
 # test
